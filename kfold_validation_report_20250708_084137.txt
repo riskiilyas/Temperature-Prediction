@@ -1,0 +1,52 @@
+==========================================================================================
+           WATER TEMPERATURE PREDICTION - K-FOLD VALIDATION REPORT
+==========================================================================================
+Generated: 2025-07-08 08:41:37
+
+DATASET SUMMARY:
+--------------------------------------------------
+Total samples (after augmentation): 804
+Feature dimensions: 85
+Temperature range: 16.80°C - 33.10°C
+Temperature mean: 27.16°C
+Temperature std: 4.18°C
+
+K-FOLD VALIDATION SETUP:
+--------------------------------------------------
+Number of folds: 5
+Validation strategy: KFold with shuffle
+Random state: 42
+
+K-FOLD VALIDATION RESULTS:
+--------------------------------------------------
+RIDGE:
+  CV R² (mean±std): 0.6988±0.0373
+  CV RMSE (mean±std): 2.2738±0.0770°C
+  CV MAE (mean±std): 1.7630±0.0685°C
+  Best hyperparameters: {'alpha': 0.5}
+  Fold R² scores: [0.7164951662012246, 0.7114604423162694, 0.7482620346236253, 0.6384351373176196, 0.6791263904677812]
+  Model stability: 0.9466
+
+RANDOM FOREST:
+  CV R² (mean±std): 0.9631±0.0077
+  CV RMSE (mean±std): 0.7933±0.0684°C
+  CV MAE (mean±std): 0.4913±0.0376°C
+  Best hyperparameters: {'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+  Fold R² scores: [0.9603659486962931, 0.9708988715268285, 0.9699399161739435, 0.9645370685331801, 0.9495759859177818]
+  Model stability: 0.9920
+
+GRADIENT BOOSTING:
+  CV R² (mean±std): 0.9853±0.0075
+  CV RMSE (mean±std): 0.4859±0.1182°C
+  CV MAE (mean±std): 0.2384±0.0581°C
+  Best hyperparameters: {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 150}
+  Fold R² scores: [0.9811468985864207, 0.993524656341285, 0.9919663992612187, 0.9865248114305039, 0.9731164004520225]
+  Model stability: 0.9924
+
+BEST MODEL: Gradient Boosting
+Best CV R²: 0.9853±0.0075
+Best CV RMSE: 0.4859°C
+
+RECOMMENDATIONS:
+--------------------------------------------------
+Excellent model performance! Ready for deployment.
