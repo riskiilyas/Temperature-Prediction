@@ -1,0 +1,52 @@
+WATER TEMPERATURE PREDICTION RESULTS
+==================================================
+Generated: 2025-07-04 17:44:22
+Model used: gradient_boosting
+Total images: 37
+Successful predictions: 37
+
+DETAILED RESULTS:
+------------------------------
+IMG_4366.jpg                    33.11°C
+IMG_4368.jpg                    32.97°C
+IMG_4370.jpg                    32.07°C
+IMG_4372.jpg                    31.34°C
+IMG_4374.jpg                    31.28°C
+IMG_4376.jpg                    30.36°C
+IMG_4378.jpg                    30.96°C
+IMG_4380.jpg                    30.97°C
+IMG_4382.jpg                    30.40°C
+IMG_4384.jpg                    30.20°C
+IMG_4386.jpg                    29.69°C
+IMG_4389.jpg                    27.22°C
+IMG_4391.jpg                    27.00°C
+IMG_4393.jpg                    26.87°C
+IMG_4395.jpg                    27.53°C
+IMG_4397.jpg                    27.04°C
+IMG_4399.jpg                    27.22°C
+IMG_4401.jpg                    25.99°C
+IMG_4403.jpg                    24.76°C
+IMG_4405.jpg                    24.00°C
+IMG_4407.jpg                    23.61°C
+IMG_4409.jpg                    23.39°C
+IMG_4411.jpg                    26.43°C
+IMG_4413.jpg                    26.79°C
+IMG_4415.jpg                    26.83°C
+IMG_4417.jpg                    26.89°C
+IMG_4419.jpg                    26.50°C
+IMG_4421.jpg                    26.37°C
+IMG_4423.jpg                    26.72°C
+IMG_4425.jpg                    26.65°C
+IMG_4427.jpg                    27.06°C
+IMG_4429.jpg                    26.80°C
+IMG_4431.jpg                    26.55°C
+IMG_4433.jpg                    26.68°C
+IMG_4435.jpg                    25.58°C
+IMG_4437.jpg                    25.43°C
+IMG_4441.jpg                    26.56°C
+
+STATISTICS:
+Mean temperature: 27.73°C
+Min temperature:  23.39°C
+Max temperature:  33.11°C
+Std deviation:    2.52°C

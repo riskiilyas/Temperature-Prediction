@@ -1,0 +1,45 @@
+================================================================================
+           ADVANCED WATER TEMPERATURE PREDICTION ANALYSIS
+================================================================================
+Generated: 2025-07-08 07:11:58
+
+ENHANCED DATASET SUMMARY:
+--------------------------------------------------
+Total samples (after augmentation): 804
+Feature dimensions: 85
+Temperature range: 16.80°C - 33.10°C
+Temperature mean: 27.16°C
+Temperature std: 4.18°C
+
+FEATURE ENGINEERING:
+--------------------------------------------------
+Multiple patch extraction (5 locations)
+RGB statistics (mean, std, max, min)
+HSV color space features
+Brightness and contrast features
+Data augmentation (6x increase)
+
+ADVANCED MODEL PERFORMANCE:
+--------------------------------------------------
+RIDGE:
+  Test R²: 0.7165
+  Test RMSE: 2.1984°C
+  Test MAE: 1.7549°C
+  CV R² (mean±std): 0.6760±0.0227
+
+RANDOM FOREST:
+  Test R²: 0.9676
+  Test RMSE: 0.7427°C
+  Test MAE: 0.4771°C
+  CV R² (mean±std): 0.9385±0.0115
+  Best hyperparameters: {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+
+GRADIENT BOOSTING:
+  Test R²: 0.9771
+  Test RMSE: 0.6254°C
+  Test MAE: 0.2887°C
+  CV R² (mean±std): 0.9749±0.0112
+  Best hyperparameters: {'learning_rate': 0.2, 'max_depth': 5, 'n_estimators': 150}
+
+BEST MODEL: Gradient Boosting
+Best Test R²: 0.9771

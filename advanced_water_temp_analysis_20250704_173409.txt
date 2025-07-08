@@ -1,0 +1,15 @@
+================================================================================
+           ADVANCED WATER TEMPERATURE PREDICTION ANALYSIS
+================================================================================
+Generated: 2025-07-04 17:34:09
+
+ENHANCED DATASET SUMMARY:
+--------------------------------------------------
+Total samples (after augmentation): 222
+Feature dimensions: 85
+Temperature range: 23.40°C - 33.10°C
+Temperature mean: 27.69°C
+Temperature std: 2.60°C
+
+FEATURE ENGINEERING:
+--------------------------------------------------

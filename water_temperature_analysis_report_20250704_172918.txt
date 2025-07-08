@@ -1,0 +1,38 @@
+================================================================================
+              WATER TEMPERATURE PREDICTION ANALYSIS REPORT
+================================================================================
+Generated: 2025-07-04 17:29:18
+
+DATASET SUMMARY:
+----------------------------------------
+Total samples: 37
+Temperature range: 23.40°C - 33.10°C
+Temperature mean: 27.69°C
+Temperature std: 2.60°C
+
+RGB STATISTICS:
+----------------------------------------
+Red - Min: 76.0, Max: 196.9, Mean: 137.4
+Green - Min: 77.5, Max: 193.9, Mean: 140.0
+Blue - Min: 59.0, Max: 172.9, Mean: 109.3
+
+MODEL PERFORMANCE:
+----------------------------------------
+LINEAR:
+  Test R²: -0.7390
+  Test RMSE: 2.7022°C
+  Test MAE: 2.3423°C
+  CV R² (mean±std): -0.3514±0.6364
+
+POLYNOMIAL:
+  Test R²: -3.5274
+  Test RMSE: 4.3601°C
+  Test MAE: 3.5237°C
+  CV R² (mean±std): -1.4808±1.7785
+
+RANDOM_FOREST:
+  Test R²: -1.1452
+  Test RMSE: 3.0013°C
+  Test MAE: 2.4175°C
+  CV R² (mean±std): -0.3297±0.7097
+
