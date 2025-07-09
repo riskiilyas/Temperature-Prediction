@@ -36,6 +36,57 @@ IMG_4433.jpg, 26.3
 IMG_4435.jpg, 25.7
 IMG_4437.jpg, 25.5
 IMG_4441.jpg, 25.7
+IMG_4447.jpg, 32.2
+IMG_4449.jpg, 32.2
+IMG_4451.jpg, 32.1
+IMG_4453.jpg, 32.1
+IMG_4455.jpg, 32.0
+IMG_4457.jpg, 32.5
+IMG_4459.jpg, 32.9
+IMG_4461.jpg, 32.0
+IMG_4463.jpg, 30.0
+IMG_4465.jpg, 29.5
+IMG_4467.jpg, 28.5
+IMG_4469.jpg, 27.3
+IMG_4471.jpg, 26.7
+IMG_4473.jpg, 25.5
+IMG_4475.jpg, 25.3
+IMG_4477.jpg, 24.5
+IMG_4479.jpg, 23.8
+IMG_4481.jpg, 24.5
+IMG_4483.jpg, 24.5
+IMG_4485.jpg, 24.6
+IMG_4487.jpg, 25.2
+IMG_4489.jpg, 25.1
+IMG_4491.jpg, 24.8
+IMG_4493.jpg, 25.0
+IMG_4495.jpg, 24.9
+IMG_4497.jpg, 25.0
+IMG_4499.jpg, 24.8
+IMG_4501.jpg, 25.1
+IMG_4503.jpg, 24.8
+IMG_4505.jpg, 24.8
+IMG_4507.jpg, 25.9
+IMG_4509.jpg, 25.9
+IMG_4511.jpg, 25.4
+IMG_4513.jpg, 25.2
+IMG_4515.jpg, 25.6
+IMG_4517.jpg, 25.6
+IMG_4519.jpg, 25.3
+IMG_4521.jpg, 25.3
+IMG_4523.jpg, 25.9
+IMG_4525.jpg, 25.8
+IMG_4527.jpg, 25.7
+IMG_4529.jpg, 25.8
+IMG_4531.jpg, 26.1
+IMG_4533.jpg, 26.3
+IMG_4535.jpg, 26.3
+IMG_4537.jpg, 26.0
+IMG_4539.jpg, 26.2
+IMG_4541.jpg, 26.0
+IMG_4543.jpg, 25.5
+IMG_4545.jpg, 26.1
+IMG_4547.jpg, 26.3
 IMG-20250705-WA0005.jpg, 29.5
 IMG-20250705-WA0007.jpg, 29.1
 IMG-20250705-WA0009.jpg, 24.2
@@ -135,3 +186,15 @@ laut_IMG-20250705-WA0142.jpg, 32.1
 laut_IMG-20250705-WA0143.jpg, 32.2
 laut_IMG-20250705-WA0144.jpg, 32.3
 laut_IMG-20250705-WA0145.jpg, 32.6
+laut_Impostor Gelap20250704_162239_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 28.5
+laut_Impostor Gelap20250704_162731_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 28.0
+laut_Impostor Gelap20250704_163023_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 27.5
+laut_Impostor Gelap20250704_163601_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 27.1
+laut_Impostor Gelap20250704_163753_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 27.0
+laut_Impostor Gelap20250704_164741_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 27.2
+laut_Impostor Gelap20250704_165106_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 26.9
+laut_Impostor Gelap20250704_165150_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 27.4
+laut_Impostor Gelap20250704_165229_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 27.1
+laut_Impostor Gelap20250704_165424_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 26.9
+laut_Impostor Gelap20250704_165504_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 27.2
+laut_Impostor Gelap20250704_165614_iPhone 15 Pro≡ƒöÑ JPEG Mytakesilo.jpg, 27.3

@@ -1,0 +1,69 @@
+==========================================================================================
+           CNN + GRADIENT BOOSTING K-FOLD VALIDATION REPORT
+==========================================================================================
+Generated: 2025-07-08 03:23:54
+
+DATASET SUMMARY:
+--------------------------------------------------
+Total samples (after augmentation): 536
+Image shape: (224, 224, 3)
+Traditional features: 85
+Temperature range: 16.80°C - 33.10°C
+Temperature mean: 27.16°C
+Temperature std: 4.18°C
+
+K-FOLD VALIDATION SETUP:
+--------------------------------------------------
+Number of folds: 5
+Validation strategy: KFold with shuffle
+
+MODEL ARCHITECTURES:
+--------------------------------------------------
+1. CNN: Custom architecture with Conv2D + BatchNorm + Dropout
+2. Gradient Boosting: Traditional features with hyperparameter tuning
+3. Hybrid: CNN features + Traditional features combined
+4. Ensemble: Weighted combination of CNN + GB predictions
+
+K-FOLD VALIDATION RESULTS:
+--------------------------------------------------
+CNN:
+  CV R² (mean±std): -0.0759±0.1075
+  CV RMSE (mean±std): 4.3056±0.3153°C
+  CV MAE (mean±std): 3.6238±0.2791°C
+  Model stability: 0.0000
+  Fold R² scores: [0.06315061200232852, 0.011726442359032418, -0.14351706722297486, -0.23770988830267892, -0.0730106460834119]
+
+GRADIENT BOOSTING:
+  CV R² (mean±std): 0.9572±0.0741
+  CV RMSE (mean±std): 0.4924±0.6302°C
+  CV MAE (mean±std): 0.2879±0.3161°C
+  Model stability: 0.9226
+  Fold R² scores: [0.8100916165162304, 0.9997684779640077, 0.9998872011981056, 0.9762297325157773, 0.9998754636137038]
+
+HYBRID CNN TRADITIONAL:
+  CV R² (mean±std): 0.8837±0.0696
+  CV RMSE (mean±std): 1.3509±0.3081°C
+  CV MAE (mean±std): 0.9658±0.1376°C
+  Model stability: 0.9212
+  Fold R² scores: [0.7480465624854847, 0.9374109179911858, 0.8973310210718684, 0.9324867731181651, 0.9031238979537508]
+
+ENSEMBLE CNN GB:
+  CV R² (mean±std): 0.6177±0.0218
+  CV RMSE (mean±std): 2.5645±0.0691°C
+  CV MAE (mean±std): 2.1718±0.0810°C
+  Model stability: 0.9648
+  Fold R² scores: [0.591965485448567, 0.6367141646399638, 0.6429790740697383, 0.592094517569487, 0.6247479029173977]
+
+BEST MODEL: Gradient Boosting
+Best CV R²: 0.9572±0.0741
+
+PERFORMANCE ANALYSIS:
+--------------------------------------------------
+CNN vs GB improvement: -107.9%
+Hybrid vs CNN improvement: -1264.7%
+Ensemble vs best single: -35.5%
+
+RECOMMENDATIONS:
+--------------------------------------------------
+✅ Excellent performance! Models are ready for deployment.
+✅ Consider ensemble approach for best results.
